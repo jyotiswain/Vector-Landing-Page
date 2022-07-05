@@ -1,13 +1,29 @@
 import {Routes, Route} from 'react-router-dom';
-import Homepage from './Homepage';
-import Create from './Create';
+import Layout from './components/Layout';
+import Navbar from './components/Navbar';
+import Heading from './components/Heading';
+import Subbar from './components/Subbar';
+import Vectorcards from './components/Vectorcards';
 
 const App = () => {
   return (
-    <Routes>
-      <Route path="/" element={<Homepage/>}/>
-      <Route path="/create/:id" element={<Create/>}/>
-    </Routes>
+   <Layout>
+    <Navbar/>
+    <hr style={{marginTop:"3rem",
+                    color:"grey",
+                    size: "2px"}}/>
+
+    <Heading/>
+    <hr style={{marginTop:"3rem",
+                    color:"grey",
+                    size: "2px"}}/>
+    
+<div className="main">
+<Subbar/>
+<Vectorcards/>
+</div>
+
+   </Layout>
   );
 }
 
