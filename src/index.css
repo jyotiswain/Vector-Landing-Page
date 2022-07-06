@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body {
   
   -webkit-font-smoothing: antialiased;
@@ -14,11 +13,11 @@ body {
 }
 
 ::selection{
-  background-color: white;
-  color: black;
+  background-color: rgb(248, 217, 18);
+  color: white;
 }
 
 span{
   cursor:pointer;
-  color:white;
+  color: black;
 }

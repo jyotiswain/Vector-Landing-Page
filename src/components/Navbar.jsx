@@ -1,12 +1,12 @@
 import {icons} from "../styles/global";
-import {icon, links, logo, navbar, signs} from "../styles/homeStyle";
+import {icon, links, logo, compname, navbar, signs} from "../styles/homeStyle";
 
 
 const Navbar = () => {
   return (
     <nav style={navbar}>
       <div style = {logo}>
-        <h1>MR</h1>
+        <h1 style = {compname}>MR</h1>
       </div>
 
       <div style={links}>
