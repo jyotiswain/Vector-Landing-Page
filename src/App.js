@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Heading from './components/Heading';
 import Subbar from './components/Subbar';
 import Vectorcards from './components/Vectorcards';
+import Footer from './components/Footer';
 
 
 const App = () => {
@@ -23,6 +24,8 @@ const App = () => {
 <Subbar/>
 <Vectorcards/>
 </div>
+
+<Footer/>
 
    </Layout>
   );
